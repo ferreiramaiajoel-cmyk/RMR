@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refugee and Migrants Rights | Refugee Rights</title>
+    <meta
+      name="description"
+      content="Refugee and Migrants Rights raises awareness that people who migrate from difficult countries have rights, just like local communities."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="index.html">Refugee and Migrants Rights</a>
+        <nav class="nav-links" aria-label="Primary Navigation">
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">About</a>
+          <a href="rights.html">Rights</a>
+          <a href="contact.html">Take Action</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Upholding human rights beyond borders</p>
+            <h1>Everyone who moves across borders deserves dignity, safety, and opportunity.</h1>
+            <p class="lead">
+              Refugee an Migrant Rights is a community-centered platform that helps citizens understand that refugee rights are human rights.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="rights.html">Explore Rights</a>
+              <a class="button button-secondary" href="contact.html">Support the Cause</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-image-wrap">
+              <img class="hero-layer blur-layer" src="assets/hero-annex.png.png" alt="" aria-hidden="true" />
+              <img class="hero-layer sharp-layer" src="assets/hero-annex.png.png" alt="Refugee rights visual" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Why this matters</p>
+            <h2>Awareness creates respect.</h2>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <h3>Rights are universal</h3>
+              <p>People fleeing conflict or poverty are entitled to protection, fair treatment, and access to essential services.</p>
+            </article>
+            <article class="card">
+              <h3>Communities grow stronger</h3>
+              <p>When local communities understand refugee rights, they can build safer, kinder, and more inclusive societies.</p>
+            </article>
+            <article class="card">
+              <h3>Action starts with knowledge</h3>
+              <p>The more people know, the better they can speak up for dignity and justice.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Interactive overview</p>
+            <h2>What people should know</h2>
+          </div>
+          <div class="interactive-panel">
+            <div class="info-card">
+              <h3>Why this matters to you</h3>
+              <p>When communities protect refugee rights, they strengthen shared values of inclusion, justice, and human dignity.</p>
+              <ul>
+                <li>Respect the right to seek safety</li>
+                <li>Support fair access to services</li>
+                <li>Speak against discrimination</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© 2026 Refugee and Migrants Rights — Upholding human rights beyond borders.</p>
+        <a href="contact.html">Get involved</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js').catch((error) => {
+          console.warn('Service Worker registration failed:', error);
+        });
+      }
+    </script>
+  </body>
+</html>

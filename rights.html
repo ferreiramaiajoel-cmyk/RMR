@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refugee Rights</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="index.html">Refugee and Migrants Rights</a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="rights.html" class="active">Rights</a>
+          <a href="contact.html">Take Action</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <div class="container">
+        <section class="section-heading">
+          <p class="eyebrow">Key rights</p>
+          <h1>Refugees and migrants deserve fundamental protection.</h1>
+        </section>
+        <div class="cards">
+          <article class="card">
+            <h3>Protection from harm</h3>
+            <p>People seeking safety must be shielded from violence, exploitation, and forced return to danger.</p>
+          </article>
+          <article class="card">
+            <h3>Access to essentials</h3>
+            <p>Food, shelter, education, and basic healthcare are part of a humane response.</p>
+          </article>
+          <article class="card">
+            <h3>Freedom from discrimination</h3>
+            <p>No person should be denied dignity because of nationality, ethnicity, or migration status.</p>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© 2026 Refugee and Migrants Rights</p>
+        <a href="contact.html">Support human rights</a>
+      </div>
+    </footer>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js').catch((error) => {
+          console.warn('Service Worker registration failed:', error);
+        });
+      }
+    </script>
+  </body>
+</html>

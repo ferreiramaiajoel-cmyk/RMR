@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Take Action</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="index.html">Refugee and Migrants Rights</a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="rights.html">Rights</a>
+          <a href="contact.html" class="active">Take Action</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <div class="container content-grid">
+        <section>
+          <p class="eyebrow">Take action</p>
+          <h1>Small actions can change how a community responds to people in need.</h1>
+          <p>Share accurate information, welcome newcomers with empathy, and support organizations that protect the dignity of displaced people.</p>
+        </section>
+        <aside class="info-card">
+          <h3>How to help</h3>
+          <ul>
+            <li>Learn the facts about refugee rights</li>
+            <li>Support local service providers</li>
+            <li>Speak up against harmful stereotypes</li>
+          </ul>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© 2026 Refugee and Migrants Rights</p>
+        <a href="index.html">Back home</a>
+      </div>
+    </footer>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js').catch((error) => {
+          console.warn('Service Worker registration failed:', error);
+        });
+      }
+    </script>
+  </body>
+</html>
